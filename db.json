@@ -621,14 +621,21 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN",
+      "roles": ["ADMIN"],
       "avatar": "https://artnow.ru/img/1119000/1119287.jpg"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER",
+      "roles": ["USER"],
+      "avatar": "https://ichef.bbci.co.uk/news/640/cpsprodpb/6969/production/_93558962_istock-586160412.jpg"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": ["MANAGER"],
       "avatar": "https://ichef.bbci.co.uk/news/640/cpsprodpb/6969/production/_93558962_istock-586160412.jpg"
     }
   ],
@@ -638,7 +645,7 @@
       "first": "Aksana",
       "lastname": "Zhuk",
       "age": 31,
-      "currency": "EUR",
+      "currency": "USD",
       "country": "Belarus",
       "city": "Minsk",
       "username": "admin",
